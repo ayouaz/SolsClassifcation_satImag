@@ -1,0 +1,73 @@
+# ── Environnement Python ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Variables d'environnement & secrets ───────────────────────────────────────
+.env
+*.env
+backend/.env
+
+# Clés de compte de service Google (GEE / OAuth)
+*service-account*.json
+*-key.json
+*_key.json
+credentials.json
+token.json
+
+# ── Données satellitaires & datasets ──────────────────────────────────────────
+dataset/
+*.tif
+*.tiff
+*.geotiff
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.gpkg
+*.geojson.large
+
+# ── Artifacts ML ──────────────────────────────────────────────────────────────
+lightning_logs/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.hdf5
+mlruns/
+wandb/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+*.swp
+*.swo
+
+# ── Logs & temporaires ────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
