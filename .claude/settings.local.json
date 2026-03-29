@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(find /c/PythonProjects/SolsClassifcation_satImag -maxdepth 3 -type d ! -path */.venv/* ! -path */.idea/* ! -path */.cadence/*)",
-      "Bash(find /c/PythonProjects/SolsClassifcation_satImag -maxdepth 4 -type f \\\\\\(-name *.py -o -name *.json -o -name *.jsx -o -name *.js -o -name *.ts -o -name *.tsx \\\\\\) ! -path */.venv/* ! -path */.idea/* ! -path */.cadence/*)"
-    ]
-  }
-}
